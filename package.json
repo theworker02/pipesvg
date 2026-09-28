@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pipesvg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pipe validation gates for svg inputs before they hit prod.",
+  "bin": {
+    "pipesvg": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pipesvg.git"
+  },
+  "homepage": "https://theworker02.github.io/pipesvg/",
+  "keywords": [
+    "pipe",
+    "svg",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
